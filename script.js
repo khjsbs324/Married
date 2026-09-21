@@ -4,8 +4,16 @@
 const wedding = {
   date: { year: 2026, month: 10, day: 18 },
   accounts: [
-    { title: '신랑 측', people: [{ role: '신랑', name: '김도현', bank: '기업은행', number: '974-001667-01-010' }] },
-    { title: '신부 측', people: [{ role: '신부', name: '김혜지', bank: '농협은행', number: '1108-02-169980' }] }
+    { title: '신랑 측', people: [
+      { role: '신랑', name: '김도현', bank: '기업은행', number: '974-001667-01-010' },
+      { role: '어머니', name: '오정숙', bank: '신한은행', number: '110387219181' },
+      { role: '아버지', name: '김택수', bank: 'SC제일은행', number: '614 20 241747' }
+    ] },
+    { title: '신부 측', people: [
+      { role: '신부', name: '김혜지', bank: '농협은행', number: '1108-02-169980' },
+      { role: '어머니', name: '김미옥', bank: '농협은행', number: '3028392130031' },
+      { role: '아버지', name: '강학석', bank: '농협은행', number: '3017194485871' }
+    ] }
   ]
 };
 
